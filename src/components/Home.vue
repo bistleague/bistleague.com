@@ -16,6 +16,10 @@
               <a href="https://line.me/ti/p/@ovw4009g" target="_blank" style="text-decoration: none"><v-icon>fab fa-line</v-icon></a>
               &nbsp;
               <a href="https://www.linkedin.com/company/bist-league" target="_blank" style="text-decoration: none"><v-icon>fab fa-linkedin</v-icon></a>
+              &nbsp;
+              <a href="https://twitter.com/bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-twitter</v-icon></a>
+              &nbsp;
+              <a href="https://www.facebook.com/BISTleague/" target="_blank" style="text-decoration: none"><v-icon>fab fa-facebook</v-icon></a>
             </div>
           </v-flex>
           <v-flex height="60"></v-flex>
