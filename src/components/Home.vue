@@ -13,7 +13,7 @@
             <div class="mt-3">
               <a href="https://www.instagram.com/bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-instagram</v-icon></a>
               &nbsp;
-              <a href="https://line.me/R/ti/p/%40ovw4009g" target="_blank" style="text-decoration: none"><v-icon>fab fa-line</v-icon></a>
+              <a href="https://line.me/R/ti/p/%40bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-line</v-icon></a>
               &nbsp;
               <a href="https://www.linkedin.com/company/bist-league" target="_blank" style="text-decoration: none"><v-icon>fab fa-linkedin</v-icon></a>
               &nbsp;
