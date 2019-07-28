@@ -1,49 +1,32 @@
 <template>
-  <v-container fill-height flex class="pa-0" style="background: #FFF2DF">
-    <v-layout wrap>
-      <v-flex md6 pa-4 order-sm2>
-        <v-layout align-start justify-space-between column fill-height>
-          <v-flex class="py-4">
-            <v-img :src="require('../assets/logo.png')" width="60"></v-img>
-          </v-flex>
-          <v-flex>
-            <div class="headline">BIST League 2.0</div>
-            <h1 class="display-3 font-weight-bold">Coming Soon</h1>
-            <div class="headline grey--text">New Chapter. New Stories. Same Goals.</div>
-            <div class="mt-3">
-              <a href="https://www.instagram.com/bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-instagram</v-icon></a>
-              &nbsp;
-              <a href="https://line.me/R/ti/p/%40bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-line</v-icon></a>
-              &nbsp;
-              <a href="https://www.linkedin.com/company/bist-league" target="_blank" style="text-decoration: none"><v-icon>fab fa-linkedin</v-icon></a>
-              &nbsp;
-              <a href="https://twitter.com/bistleague" target="_blank" style="text-decoration: none"><v-icon>fab fa-twitter</v-icon></a>
-              &nbsp;
-              <a href="https://www.facebook.com/BISTleague/" target="_blank" style="text-decoration: none"><v-icon>fab fa-facebook</v-icon></a>
-            </div>
-          </v-flex>
-          <v-flex height="60"></v-flex>
-        </v-layout>
-      </v-flex>
-      <v-flex md6 order-sm1 hidden-sm-and-down>
-        <v-img :src="require('../assets/web-cs-paint-blue.svg')" cover height="100vh" position="center right">
-          <v-layout fill-height justify-end align-end row class="pa-4">
-            <v-flex>
-              <div align="right">
-                <v-img :src="require('../assets/web-cs-worker.svg')" height="40vh" contain width="40vw"></v-img>
-              </div>
-            </v-flex>
-          </v-layout>
+    <div>
+        <v-img :src="require('../assets/bgbl2.jpg')" cover height="100vh" position="center right">
+            <BLToolbar />
+            <BLCenterWrap align="right" style="margin-top: 32px;">
+                <v-layout>
+                    <v-flex sm6></v-flex>
+                    <v-flex sm6>
+                        <div class="display-3 font-weight-bold" style="color: #0C4E54">BIST League 2.0</div>
+                        <p class="subheading" style="color: #067878;">Embrace the Rapidly Changing Technology to Empower Underprivileged Population</p>
+                        <router-link to="/competition" style="text-decoration: none">
+                            <v-btn large outline primary class="mt-3 text-none font-weight-bold" color="primary darken-3">Register for the Competition</v-btn>
+                        </router-link>
+                    </v-flex>
+                </v-layout>
+            </BLCenterWrap>
         </v-img>
-      </v-flex>
-    </v-layout>
-  </v-container>
+        <BLFooter/>
+    </div>
 </template>
 
 <script>
-  export default {
-
-  }
+    import BLToolbar from "./partials/BLToolbar";
+    import BLCenterWrap from "./partials/BLCenterWrap";
+    import BLFooter from "./partials/BLFooter";
+    export default {
+        name: "Home",
+        components: {BLFooter, BLCenterWrap, BLToolbar}
+    }
 </script>
 
 <style scoped>
