@@ -4,8 +4,8 @@
             <BLToolbar />
             <BLCenterWrap align="right" style="margin-top: 32px;">
                 <v-layout>
-                    <v-flex sm6></v-flex>
-                    <v-flex sm6>
+                    <v-flex xs12 sm12 md6></v-flex>
+                    <v-flex xs12 sm12 md6>
                         <div class="display-3 font-weight-bold" style="color: #0C4E54">BIST League 2.0</div>
                         <p class="subheading" style="color: #067878;">Embrace the Rapidly Changing Technology to Empower Underprivileged Population</p>
                         <router-link to="/competition" style="text-decoration: none">

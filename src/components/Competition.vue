@@ -66,7 +66,7 @@
                 <v-divider></v-divider>
                 <BLCenterWrap class="white py-5">
                     <v-layout row>
-                        <v-flex md4>
+                        <v-flex xs12 sm12 md4>
                             <div class="headline font-weight-bold" style="color: #0C4E54">Registration Fee</div>
                             <p class="mt-3">The registration fee is <b>Rp200.000,-</b>. Please transfer the fund to:</p>
                             <ul>
@@ -76,7 +76,7 @@
                             </ul>
                             <p class="mt-3">Upon successful payment, please keep your proof of payment and upload it on the registration dashboard.</p>
                         </v-flex>
-                        <v-flex md4>
+                        <v-flex xs12 sm12 md4>
                             <div class="headline font-weight-bold" style="color: #0C4E54">Prize</div>
                             <ul class="mt-3" style="font-size: 16px">
                                 <li>Champion: <b>Rp10.000.000,-</b></li>
@@ -85,7 +85,7 @@
                                 <li>Best Speaker: <b>1.500.000,-</b></li>
                             </ul>
                         </v-flex>
-                        <v-flex md4>
+                        <v-flex xs12 sm12 md4>
                             <div class="headline font-weight-bold" style="color: #0C4E54">Requirements</div>
                             <ul class="mt-3" style="font-size: 16px">
                                 <li>Each team consists of 2-3 members. Participants must be enrolled full time in an undergraduate bachelor's degree or diploma program.</li>
