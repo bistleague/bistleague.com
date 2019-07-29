@@ -9,7 +9,6 @@ import VueRouter from 'vue-router'
 const routes = [
     {path: "/", component: () => import('./components/Home')},
     {path: "/competition", alias: ["/competition/faq"], component: () => import('./components/Competition')},
-    {path: "/login", component: () => import('./components/Login')},
 ];
 
 const router = new VueRouter({

@@ -15,7 +15,7 @@
                     <v-toolbar-items class="hidden-sm-and-down">
                         <v-btn flat class="text-none" to="/">Home</v-btn>
                         <v-btn flat class="text-none" to="/competition">Competition</v-btn>
-                        <v-btn flat class="text-none" to="/login">Login</v-btn>
+                        <v-btn flat class="text-none" :href="loginUrl">Login</v-btn>
                         <!--<v-btn flat class="text-none" to="/seminar">Seminar</v-btn>-->
                     </v-toolbar-items>
                     <v-toolbar-items class="hidden-md-and-up">
@@ -31,7 +31,7 @@
                                 <!--<v-list-tile to="/seminar" exact>-->
                                     <!--<v-list-tile-title>Seminar</v-list-tile-title>-->
                                 <!--</v-list-tile>-->
-                                <v-list-tile to="/login" exact>
+                                <v-list-tile :href="loginUrl" style="color: inherit">
                                     <v-list-tile-title>Login</v-list-tile-title>
                                 </v-list-tile>
                             </v-list>
@@ -46,7 +46,11 @@
 <script>
     export default {
         name: "BLToolbar",
-        components: {},
+        data() {
+            return {
+                loginUrl: `${process.env.VUE_APP_DASHBOARD_BASE_URL}/login`
+            }
+        }
     }
 </script>
 
