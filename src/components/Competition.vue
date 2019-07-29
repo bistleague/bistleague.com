@@ -181,7 +181,7 @@
                     </b>
                     <p>
                         Untuk peserta yang lolos ke semifinal, kalian tidak perlu membayar
-                        untuk semifinal lagi.
+                        untuk seminar lagi.
                     </p>
                     <div class="mt-4">
                         If you have any more questions, don't hesitate to contact:
