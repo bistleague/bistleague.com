@@ -74,16 +74,16 @@
                     <div class="headline font-weight-bold" style="color: #0C4E54">Prize</div>
                     <ul class="mt-3" style="font-size: 16px">
                         <li>Champion: <b>Rp10.000.000,-</b></li>
-                        <li>First Runner Up: <b>7.500.000,-</b></li>
-                        <li>Second Runner Up: <b>5.000.000,-</b></li>
-                        <li>Best Speaker: <b>1.500.000,-</b></li>
+                        <li>First Runner Up: <b>Rp7.500.000,-</b></li>
+                        <li>Second Runner Up: <b>Rp5.000.000,-</b></li>
+                        <li>Best Speaker: <b>Rp1.500.000,-</b></li>
                     </ul>
                 </v-flex>
                 <v-flex md4 class="mt-3 px-1">
                     <div class="headline font-weight-bold" style="color: #0C4E54">Requirements</div>
                     <ul class="mt-3" style="font-size: 16px">
                         <li>Each team consists of 2-3 members. Participants must be enrolled full time in an undergraduate bachelor's degree or diploma program.</li>
-                        <li>Each participating team must be registered in the Bistleague.com website</li>
+                        <li>Each participating team must be registered in the www.bistleague.com website.</li>
                         <li>Each team member may only be registered in one team.</li>
                         <li>Team members may come from different majors, but the same university.</li>
                     </ul>
