@@ -92,7 +92,7 @@
             <ul>
                 <li>Pay your registration fee according to each registration period.</li>
                 <li>Post a photo using our twibbon on Instagram with the caption for every contestant in a team. Twibbon and caption can be viewed in <a href="http://bit.ly/BISTLeague2019_Twibbon" target="_blank">http://bit.ly/BISTLeague2019_Twibbon</a></li>
-                <li>Tag 3 of your friends who are not from your team.</li>
+                <li>Tag 3 of your friends who are not in the same team as you.</li>
                 <li>Screenshot the post and send it to BIST League’s LINE Official Account (<a href="https://line.me/R/ti/p/%40bistleague">@bistleague</a>)</li>
                 <li>Please do include your team name, team representative’s bank account information (bank name, account no., and account holder name), and also include registration fee payment proof.</li>
                 <li>After it has been processed, the committee will send you a notification regarding the cashback within a few days through the BIST League LINE Official Account</li>
