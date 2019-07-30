@@ -5,7 +5,7 @@
                 <v-flex xs12 sm12 md6 lg6 order-xs2 order-sm2 order-md1 my-4>
                     <div class="headline font-weight-bold" style="color: #0C4E54">Business-IT Case</div>
                     <p class="mt-3" style="font-size: 18px; color: #0C4E54">
-                        Business-IT Case  is a competition where participants can solve business problems and pour the best IT-based ideas/solutions to solve existing problems.
+                        Business-IT Case  is a competition where participants can solve business problems and formulate the best IT-based ideas/solutions to solve existing problems.
                     </p>
                     <div class="title font-weight-bold mt-5" style="color: #0C4E54">
                         Embrace the Rapidly Changing Technology to Empower Underprivileged Population
@@ -58,7 +58,7 @@
                         </li>
                     </ol>
 
-                    <v-card flat color="#f4f4f4" class="mt-3">
+                    <v-card flat color="#f4f4f4" class="mt-3 px-1">
                         <v-card-text>
                             <p>Please transfer the fund to:</p>
                             <ul>
@@ -70,7 +70,7 @@
                         </v-card-text>
                     </v-card>
                 </v-flex>
-                <v-flex md4 class="mt-3">
+                <v-flex md4 class="mt-3 px-1">
                     <div class="headline font-weight-bold" style="color: #0C4E54">Prize</div>
                     <ul class="mt-3" style="font-size: 16px">
                         <li>Champion: <b>Rp10.000.000,-</b></li>
@@ -79,7 +79,7 @@
                         <li>Best Speaker: <b>1.500.000,-</b></li>
                     </ul>
                 </v-flex>
-                <v-flex md4 class="mt-3">
+                <v-flex md4 class="mt-3 px-1">
                     <div class="headline font-weight-bold" style="color: #0C4E54">Requirements</div>
                     <ul class="mt-3" style="font-size: 16px">
                         <li>Each team consists of 2-3 members. Participants must be enrolled full time in an undergraduate bachelor's degree or diploma program.</li>
@@ -113,7 +113,7 @@
                                 <b>All team members must post BIST League twibbon in their Instagram feeds and tag 3 of your friends who are not in the same team as you.</b>
                             </div>
                             <p class="mt-3">
-                                Download the Twibbon here: <a href="http://bit.ly/BISTLeague2019_Twibbon" target="_blank">http://bit.ly/BISTLeague2019_Twibbon</a>
+                                Twibbon and Caption can be found here: <a href="http://bit.ly/BISTLeague2019_Twibbon" target="_blank">http://bit.ly/BISTLeague2019_Twibbon</a>
                             </p>
                         </v-flex>
                         <v-flex md6 class="pa-2">
