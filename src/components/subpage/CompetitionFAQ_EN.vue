@@ -61,7 +61,7 @@
             <p>The registration fee is as follows:</p>
             <ol type="a">
                 <li>
-                    <b style="color: #0C4E54">Early Bird (July 28<sup>th</sup> - August 19<sup>th</sup> 2019)</b>
+                    <b style="color: #0C4E54">Early Bird (July 28<sup>th</sup> - August 16<sup>th</sup> 2019)</b>
                     <div><s>Rp300.000,-</s> &rarr; <b>Rp250.000,- per team</b> (free seminar tickets included)</div>
                 </li>
                 <li>
