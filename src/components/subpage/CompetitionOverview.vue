@@ -1,5 +1,15 @@
 <template>
     <div>
+        <BLCenterWrap class="white pa-3 py-5" align="center">
+            <v-layout>
+                <v-flex>
+                    <div class="display-1 font-weight-bold" style="color: #0C4E54">Timeline</div>
+                    <div class="my-3"></div>
+                    <CompetitionTimeline />
+                </v-flex>
+            </v-layout>
+        </BLCenterWrap>
+        <v-divider></v-divider>
         <BLCenterWrap>
             <v-layout wrap mt-2 py-5 justify-center align-center>
                 <v-flex xs12 sm12 md6 lg6 order-xs2 order-sm2 order-md1 my-4>
@@ -18,22 +28,6 @@
                     <div align="center">
                         <v-img :src="require('../../assets/compside1.png')" width="70%"></v-img>
                     </div>
-                </v-flex>
-            </v-layout>
-        </BLCenterWrap>
-        <v-divider></v-divider>
-        <BLCenterWrap class="white pa-3 py-5" align="center">
-            <v-layout row>
-                <v-flex offset-md2 md8>
-                    <div class="display-1 font-weight-bold" style="color: #0C4E54">Business-IT Case</div>
-                    <p class="title mt-3">Take part in one of the biggest and most prestigious Business-IT case competition in Indonesia.</p>
-                    <div class="my-3"></div>
-                    <a :href="rulebookUrl" target="_blank" style="text-decoration: none">
-                        <v-btn large outline color="grey darken-1" class="font-weight-bold text-none">Download Rulebook</v-btn>
-                    </a>
-                    <a :href="competitionUrl" style="text-decoration: none">
-                        <v-btn large outline color="primary darken-3" class="font-weight-bold text-none">Register Now</v-btn>
-                    </a>
                 </v-flex>
             </v-layout>
         </BLCenterWrap>
@@ -131,17 +125,34 @@
                 </v-card-text>
             </v-card>
         </BLCenterWrap>
+        <v-divider></v-divider>
+        <BLCenterWrap class="white pa-3 py-5" align="center">
+            <v-layout row>
+                <v-flex offset-md2 md8>
+                    <div class="display-1 font-weight-bold" style="color: #0C4E54">Business-IT Case</div>
+                    <p class="title mt-3">Take part in one of the biggest and most prestigious Business-IT case competition in Indonesia.</p>
+                    <div class="my-3"></div>
+                    <a :href="rulebookUrl" target="_blank" style="text-decoration: none">
+                        <v-btn large outline color="grey darken-1" class="font-weight-bold text-none">Download Rulebook</v-btn>
+                    </a>
+                    <a :href="competitionUrl" style="text-decoration: none">
+                        <v-btn large outline color="primary darken-3" class="font-weight-bold text-none">Register Now</v-btn>
+                    </a>
+                </v-flex>
+            </v-layout>
+        </BLCenterWrap>
     </div>
 </template>
 
 <script>
     import BLCenterWrap from "../partials/BLCenterWrap";
+    import CompetitionTimeline from "./CompetitionTimeline";
     export default {
         name: "CompetitionOverview",
-        components: {BLCenterWrap},
+        components: {CompetitionTimeline, BLCenterWrap},
         data() {
             return {
-                competitionUrl: `${process.env.VUE_APP_DASHBOARD_BASE_URL}/competition`,
+                competitionUrl: `${process.env.VUE_APP_DASHBOARD_BASE_URL}/competition?utm_source=competition_page`,
                 rulebookUrl: process.env.VUE_APP_COMPETITION_RULEBOOK_URL
             }
         }
