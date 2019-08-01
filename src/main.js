@@ -20,7 +20,8 @@ Vue.use(VueRouter);
 
 if(process.env.VUE_APP_GA_ID) {
     Vue.use(VueAnalytics, {
-        id: process.env.VUE_APP_GA_ID
+        id: process.env.VUE_APP_GA_ID,
+        router
     });
 }
 

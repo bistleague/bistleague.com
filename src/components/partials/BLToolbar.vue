@@ -48,7 +48,7 @@
         name: "BLToolbar",
         data() {
             return {
-                loginUrl: `${process.env.VUE_APP_DASHBOARD_BASE_URL}/login`
+                loginUrl: `${process.env.VUE_APP_DASHBOARD_BASE_URL}`
             }
         }
     }
