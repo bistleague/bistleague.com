@@ -107,7 +107,7 @@
                                 <b>All team members must share BIST League poster to 3 LINE groups.</b>
                             </div>
                             <p class="mt-3">
-                                Poster can be found here: <a href="http://bit.ly/BISTLEAGUE2019_Twibbon_Poster" target="_blank">http://bit.ly/BISTLEAGUE2019_Twibbon_Poster</a>
+                                Poster can be found here: <a href="http://bit.ly/BISTLeague2019_Twibbon_Poster" target="_blank">http://bit.ly/BISTLeague2019_Twibbon_Poster</a>
                             </p>
                         </v-flex>
                         <v-flex md6 class="pa-2">
