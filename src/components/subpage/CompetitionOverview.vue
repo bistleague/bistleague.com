@@ -104,10 +104,10 @@
                                 <li>The next 30 teams signing up will get a cashback of <b>Rp20.000,-</b></li>
                             </ul>
                             <div class="mt-3">
-                                <b>All team members must post BIST League twibbon in their Instagram feeds and tag 3 of your friends who are not in the same team as you.</b>
+                                <b>All team members must share BIST League poster to 3 LINE groups.</b>
                             </div>
                             <p class="mt-3">
-                                Twibbon and Caption can be found here: <a href="http://bit.ly/BISTLeague2019_Twibbon" target="_blank">http://bit.ly/BISTLeague2019_Twibbon</a>
+                                Poster can be found here: <a href="http://bit.ly/BISTLeague2019_Twibbon_Poster" target="_blank">http://bit.ly/BISTLeague2019_Twibbon_Poster</a>
                             </p>
                         </v-flex>
                         <v-flex md6 class="pa-2">
@@ -115,7 +115,7 @@
                             <ol type="a">
                                 <li>Team name</li>
                                 <li>Recipient's bank name, account number, and holder name</li>
-                                <li>Instagram post screenshot</li>
+                                <li>Poster share screenshot</li>
                                 <li>Proof of payment</li>
                             </ol>
                             <p class="mt-3">to the BIST League LINE Official Account (<a href="https://line.me/R/ti/p/%40bistleague">@bistleague</a>)</p>
