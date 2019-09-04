@@ -1,5 +1,5 @@
 <template>
-    <div class="md-stepper-horizontal">
+    <div class="md-stepper-horizontal timeline-container">
         <div class="md-step">
             <div class="md-step-circle"><span>1</span></div>
             <div class="md-step-title">
@@ -48,9 +48,7 @@
 
 <style scoped>
     .md-stepper-horizontal {
-        display:table;
-        table-layout: fixed;
-        width:100%;
+        display:block;
         margin:0 auto;
     }
     .md-stepper-horizontal .md-step {
@@ -130,5 +128,16 @@
         left:0;
         right:50%;
         margin-right:20px;
+    }
+
+    .timeline-container{
+        min-width:100%;
+    }
+
+    @media screen and (max-width: 960px) {
+        .timeline-container{
+            display: block;
+            overflow-x: scroll;
+        }
     }
 </style>
