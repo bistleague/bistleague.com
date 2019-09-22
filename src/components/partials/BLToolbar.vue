@@ -16,9 +16,7 @@
                         <v-btn flat class="text-none" to="/">Home</v-btn>
                         <v-btn flat class="text-none" to="/competition">Competition</v-btn>
                         <v-btn flat class="text-none" to="/seminar">Seminar</v-btn>
-                        <v-divider vertical></v-divider>
                         <v-btn flat class="text-none" :href="loginUrl">Login</v-btn>
-                        <v-divider vertical></v-divider>
                     </v-toolbar-items>
                     <v-toolbar-items class="hidden-md-and-up">
                         <v-menu offset-y>
