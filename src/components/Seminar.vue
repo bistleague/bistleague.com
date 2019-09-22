@@ -50,7 +50,7 @@
                     <v-layout wrap justify-center align-center>
                         <v-flex xs10 md6>
                             <ol class='seminar-list'>
-                                <li>Indonesian Government's Roadmap in Empowering Low Class Economic Society</li>
+                                <li>The Indonesian Startup Initiatives in Empowering Underprivileged Societies</li>
                                 <li>How to Empower SME to Creatively Innovate on Current Thriving Market</li>
                                 <li>Unlock SME's Future Growth</li>
                             </ol>
