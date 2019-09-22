@@ -52,7 +52,6 @@
                             <ol class='seminar-list'>
                                 <li>The Indonesian Startup Initiatives in Empowering Underprivileged Societies</li>
                                 <li>How to Empower SME to Creatively Innovate on Current Thriving Market</li>
-                                <li>Unlock SME's Future Growth</li>
                             </ol>
                         </v-flex>
                     </v-layout>
@@ -90,7 +89,8 @@
         </BLCenterWrap>
         <BLCenterWrap style="background: #093A3F; color: white; text-align: center" class="py-5 px-1">
         <div class="headline font-weight-bold">Talkshow</div>
-            <v-layout wrap class="mt-3">
+            <div class="title mt-2">Unlock SME's Future Growth</div>
+            <v-layout wrap class="mt-4">
                 <v-flex sm12 md4 class="pa-2">
                     <v-avatar
                             :size="150"
