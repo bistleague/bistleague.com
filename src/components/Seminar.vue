@@ -162,9 +162,9 @@
                         knowledge, as well as experiences to help you become a part
                         of the ongoing technological advancement and development.
                     </p>
-                    <router-link to="#" style="text-decoration: none">
+                    <a target="_blank" href="https://www.eventbrite.com/e/seminar-talkshow-bist-league-20-tickets-73802873381" style="text-decoration: none">
                         <v-btn large outline primary class="mt-3 text-none font-weight-bold" color="primary darken-3">Register for the Seminar</v-btn>
-                    </router-link>
+                    </a>
                 </v-flex>
             </v-layout>
         </BLCenterWrap>
